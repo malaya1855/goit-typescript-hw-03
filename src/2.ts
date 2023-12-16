@@ -32,7 +32,7 @@ class Employee {
 
 class Manager extends Employee {
   constructor(name: string, department: string, salary: number) {
-    super(name, department, salary);}
+    super(name, department, salary+10000);}
   public riseSalary() {
     this.salary +=10000
   }
